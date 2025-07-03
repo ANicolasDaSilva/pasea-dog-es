@@ -1,0 +1,130 @@
+/* fuente */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 100px;
+    background-color: white;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.nameRed {
+    color: black;
+}
+
+.logoInsta{
+    width: 50px;
+}
+
+/* inicio */
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.tituloPagina {
+    font-size: 100px;
+}
+
+h2 {
+    background-color: #fafafa;
+    margin: 50px;
+}
+
+/* nosotros */
+
+.nosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px;
+}
+
+
+.nosotros img {
+    width: 1000px;
+}
+
+/* paseadores */
+
+.grupoPaseador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 30px 15px;
+}
+
+.card {
+    border: 2px solid black;
+    width: 500px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    padding: 16px;
+}
+
+.botonWpp{
+    text-decoration: none;
+    display: inline-block;
+    background-color: darkgreen;
+    font-size: 25px;
+    padding: 9px;
+    border-radius: 6px;
+}
+
+/* media queries */
+
+/* probar y aprender bien ese tema */ 
