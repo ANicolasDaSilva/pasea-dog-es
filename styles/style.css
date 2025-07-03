@@ -49,7 +49,7 @@ footer {
     margin: 50px;
 }
 
-.nameRed {
+footer a {
     color: black;
 }
 
@@ -127,4 +127,10 @@ h2 {
 
 /* media queries */
 
-/* probar y aprender bien ese tema */ 
+/* mobile */
+@media (max-width: 430px) {
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+    }
+}
