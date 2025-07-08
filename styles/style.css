@@ -27,6 +27,13 @@ header {
     cursor: pointer;
 }
 
+.nav-hover {
+    padding: 20px;
+}
+
+.nav-hover:hover {
+    background-color: rgb(255, 0, 0);
+}
 li {
     list-style: none;
     display: inline-block;
