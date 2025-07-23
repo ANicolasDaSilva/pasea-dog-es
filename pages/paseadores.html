@@ -4,39 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../styles/style.css">
 
-    <title>Document</title>
+    <title> Paseadores - Pasea-DOG-es </title>
 </head>
 
 <body>
     <header>
-        <img class="logo" src="../images/logo-paseo.png" alt="">
-        <nav>
-            <ul>
-                <li class="nav-hover">
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-hover">
-                    <a href="./nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-hover">
-                    <a href="#">Paseadores</a>
-                </li>
-                <li class="nav-hover">
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-                <li class="nav-hover">
-                    <a href="./emergencia.html">Emergencias</a>
-                </li>
-            </ul>
-        </nav>
+        <section class="navbar-new">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img class="logo" src="../images/logo-paseo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item nav-hover">
+                                <a class="nav-link" aria-current="page" href="../index.html"> Inicio </a>
+                            </li>
+                            <li class="nav-item nav-hover">
+                                <a class="nav-link" href="./nosotros.html"> Nosotros </a>
+                            </li>
+                            <li class="nav-item nav-hover">
+                                <a class="nav-link" href="#"> Paseadores </a>
+                            </li>
+                            <li class="nav-item nav-hover">
+                                <a class="nav-link" href="./contacto.html"> Contacto </a>
+                            </li>
+                            <li class="nav-item nav-hover">
+                                <a class="nav-link" href="./emergencia.html"> Emergencias </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
     </header>
 
     <main>
-        <section>
+        <section class="presentacion-paseadores">
             <h1>Nuestros paseadores:</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod dignissimos alias aspernatur, repudiandae
                 ipsam quas nulla totam sapiente quam laboriosam illum veniam consectetur consequuntur perspiciatis ipsum
@@ -62,7 +74,7 @@
 
         <section class="grupoPaseador">
             <div class="card">
-                <h2>carlos</h2>
+                <h2> Carlos </h2>
                 <img src="../images/carlosPaseo.jpg" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ducimus deserunt reprehenderit, numquam
                 minima maxime sint vel placeat impedit quos.</p>
@@ -70,7 +82,7 @@
             </div>
 
             <div class="card">
-                <h2>angel</h2>
+                <h2> Ángel </h2>
                 <img src="../images/angelPaseo.jpg" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quaerat velit aliquam similique
                 pariatur? Ut cumque veritatis esse beatae facilis.</p>
@@ -78,7 +90,7 @@
             </div>
 
             <div class="card">
-                <h2>nicolas</h2>
+                <h2> Nicolás </h2>
                 <img src="../images/nicoPaseo.jpg" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur dolor nam distinctio culpa
                 ipsam voluptatum perspiciatis natus dolorem voluptatibus facilis.</p>
@@ -86,7 +98,7 @@
             </div>
 
             <div class="card">
-                <h2>bianca</h2>
+                <h2> Bianca </h2>
                 <img src="../images/biancaPaseo.jpg" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolore harum aliquam obcaecati
                 animi corrupti suscipit sapiente voluptatibus perspiciatis ducimus!</p>
@@ -96,11 +108,18 @@
     </main>
 
     <footer>
-        <p>Seguinos en nuestras redes:</p>
-        <a href="https://www.instagram.com/">Instagram</a>
-        <img class="logoInsta" src="./images/instagram-logo.png" alt="">
-        <a href="#"> Pasea-DOG-es </a>
+        <h3>Seguinos en nuestras redes:</h3>
+        <a href="https://www.instagram.com/"><img class="logoRed" src="../images/instagram-logo.png" alt=""> Instagram
+        </a>
+        <a href="https://www.facebook.com/?locale=es_LA"> <img class="logoRed" src="../images/facebook_logo.png" alt="">
+            Facebook </a>
+        <a href="https://www.youtube.com/"><img class="logoRed" src="../images/youtube_logo.png" alt=""> YouTube </a>
     </footer>
+    
+    <!-- Boostrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

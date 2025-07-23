@@ -21,47 +21,50 @@ header {
     top: 0;
 }
 
-.logo {
-    width: 100px;
-    background-color: white;
-    cursor: pointer;
+li {
+    list-style: none;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
 }
 
+.logo {
+    width: 100px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+
 .nav-hover {
-    padding: 20px;
+    padding: 30px;
 }
 
 .nav-hover:hover {
     background-color: rgb(255, 0, 0);
 }
-li {
-    list-style: none;
-    display: inline-block;
-    padding: 0px 50px;
-}
 
 a {
     text-decoration: none;
     color: white;
-    font-weight: 500;
 }
 
 /* footer */
 
 footer {
+    background-color: #00f7ff71;
+    height: max-content;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 50px;
+    padding: 30px;
 }
 
 footer a {
     color: black;
 }
 
-.logoInsta{
-    width: 50px;
+.logoRed{
+    width: 40px;
 }
 
 /* inicio */
@@ -85,6 +88,11 @@ h2 {
     margin: 50px;
 }
 
+.explicacion-paseos {
+    text-align: center;
+    margin: 0px 50px;
+}
+
 /* nosotros */
 
 .nosotros {
@@ -94,12 +102,16 @@ h2 {
     margin: 50px;
 }
 
-
 .nosotros img {
-    width: 1000px;
+    width: 800px;
 }
 
 /* paseadores */
+
+.presentacion-paseadores {
+    text-align: center;
+    margin: 0px 50px;
+}
 
 .grupoPaseador {
     display: flex;
@@ -130,6 +142,52 @@ h2 {
     font-size: 25px;
     padding: 9px;
     border-radius: 6px;
+}
+
+/* contacto */
+
+form {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+label {
+    display: flex;
+    margin: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+input {
+    display: block;
+    width: 300px;
+    height: 30px;
+}
+
+textarea {
+    display: flex;
+    width: 500px;
+}
+
+.boton {
+    width: 100px;
+    margin: 50px 30px;
+    padding: 20px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    display: inline;
+    align-content: center;
+}
+
+/* emergencia */
+
+.emergencia{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    gap: 40px;
+    margin: 50px 0px;
 }
 
 /* media queries */
