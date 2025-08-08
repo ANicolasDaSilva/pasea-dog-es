@@ -1,0 +1,42 @@
+// PASEADORES 
+@import "../utilities/mixins";
+
+.presentacion-paseadores {
+    text-align: center;
+    margin: 0px 50px;
+}
+
+.grupoPaseador {
+    @include flex(row, space-around, center);
+    gap: 30px;
+    margin: 30px 15px;
+    
+}
+
+.card {
+    border: 2px solid black;
+    width: 500px;
+    text-align: center;
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        padding: 16px;
+    }
+}
+
+.botonWpp {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: darkgreen;
+    font-size: 25px;
+    padding: 9px;
+    border-radius: 6px;
+
+    .whatsApp-logo {
+        width: 25%;
+    }
+}

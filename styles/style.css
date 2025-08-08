@@ -1,223 +1,101 @@
 /* fuente */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
-/* header */
 
 header {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: black;
-    align-items: center;
-    position: sticky;
-    top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  align-items: center;
+  position: sticky;
+  top: 0;
 }
 
-li {
-    list-style: none;
-    display: inline-block;
-    background-color: rgb(255, 255, 255);
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+}
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+nav ul a:hover {
+  background-color: rgb(255, 0, 0);
 }
 
 .logo {
-    width: 100px;
-    cursor: pointer;
-    background-color: rgb(255, 255, 255);
+  width: 100px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
 }
 
 .nav-hover {
-    padding: 30px;
+  padding: 30px;
 }
-
-.nav-hover:hover {
-    background-color: rgb(255, 0, 0);
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-/* footer */
-
-footer {
-    background-color: #00f7ff71;
-    height: max-content;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 30px;
-}
-
-footer a {
-    color: black;
-}
-
-.logoRed {
-    width: 40px;
-}
-
-/* inicio */
-
-.banner {
-    background-image: url(../images/banner.jpg);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 200px;
-}
-
-.tituloPagina {
-    font-size: 100px;
-}
-
-h2 {
-    background-color: #fafafa;
-    margin: 50px;
-}
-
-.explicacion-paseos {
-    text-align: center;
-    margin: 0px 50px;
-}
-
-/* nosotros */
-
-.nosotros {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 50px;
-}
-
-.nosotros img {
-    width: 800px;
-}
-
-/* paseadores */
 
 .presentacion-paseadores {
-    text-align: center;
-    margin: 0px 50px;
+  text-align: center;
+  margin: 0px 50px;
 }
 
 .grupoPaseador {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 30px;
-    margin: 30px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  margin: 30px 15px;
 }
 
 .card {
-    border: 2px solid black;
-    width: 500px;
-    text-align: center;
+  border: 2px solid black;
+  width: 500px;
+  text-align: center;
 }
-
 .card img {
-    width: 100%;
+  width: 100%;
 }
-
 .card p {
-    padding: 16px;
+  padding: 16px;
 }
 
 .botonWpp {
-    text-decoration: none;
-    display: inline-block;
-    background-color: darkgreen;
-    font-size: 25px;
-    padding: 9px;
-    border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: darkgreen;
+  font-size: 25px;
+  padding: 9px;
+  border-radius: 6px;
+}
+.botonWpp .whatsApp-logo {
+  width: 25%;
 }
 
-/* contacto */
-
-form {
-    margin-top: 30px;
-    margin-left: 100px;
+footer {
+  background-color: rgba(0, 247, 255, 0.4431372549);
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+}
+footer a {
+  color: black;
+  text-decoration: none;
 }
 
-label {
-    display: flex;
-    margin: 10px;
-    font-weight: bold;
-    font-size: larger;
+.logoRed {
+  width: 40px;
 }
 
-input {
-    display: block;
-    width: 300px;
-    height: 30px;
-}
-
-textarea {
-    display: flex;
-    width: 500px;
-}
-
-.boton {
-    width: 100px;
-    margin: 50px 30px;
-    padding: 20px;
-    background-color: rgb(255, 0, 0);
-    color: white;
-    border: none;
-    display: inline;
-    align-content: center;
-}
-
-/* emergencia */
-
-.emergencia {
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-    gap: 40px;
-    margin: 50px 0px;
-}
-
-/* RESPONSIVE*/
-
-/*MOVIL*/
-@media (min-width: 340px) and (max-width: 767px) {
-    /* nosotros */
-    .nosotros{
-        display: flex;
-        flex-direction: column;
-        img{
-            width: 100%;
-        }
-    }
-
-    /* paseadores */
-    .grupoPaseador{
-        display: flex;
-        flex-direction: column;
-        .card{
-            width: fit-content;
-        }
-    }
-
-    /* emergencia */
-    .emergencia{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-/* TABLET 768px*/
-@media (min-width: 768px) and (max-width: 1024px) {}
+/*# sourceMappingURL=style.css.map */

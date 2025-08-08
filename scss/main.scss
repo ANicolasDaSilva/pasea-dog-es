@@ -1,0 +1,10 @@
+//base
+
+@use "./partials/base/reset";
+@use "./partials/base/fuente";
+
+//componentes
+
+@use "./partials/components/header";
+@use "./partials/components/cards";
+@use "./partials/components/footer";

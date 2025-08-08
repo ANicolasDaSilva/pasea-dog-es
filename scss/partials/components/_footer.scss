@@ -1,0 +1,19 @@
+// FOOTER
+@use "../utilities/variables";
+@import "../utilities/mixins";
+
+footer {
+    background-color: #00f7ff71;
+    height: max-content;
+    @include flex(row, space-evenly, center);
+    padding: 30px;
+
+    a {
+        color: variables.$fondo;
+        text-decoration: none;
+    }
+}
+
+.logoRed {
+    width: 40px;
+}
