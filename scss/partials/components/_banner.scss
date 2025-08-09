@@ -1,3 +1,4 @@
+@use "../utilities/variables";
 @import "../utilities/mixins";
 
 .banner {
@@ -11,7 +12,7 @@
     font-size: 100px;
 
     h2 {
-        background-color: #fafafa;
+        background-color:  variables.$fuente;
         margin: 50px;
     }
 }

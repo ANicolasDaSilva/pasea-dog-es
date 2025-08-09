@@ -10,23 +10,38 @@ header {
     position: sticky;
     top: 0;
 }
+
 nav {
-    ul{
+
+    ul {
+
         li {
             list-style: none;
             display: inline-block;
-            background-color: rgb(255, 255, 255);
+            padding: 0px;
         }
-        a {
-            text-decoration: none;
-            color: white;
+
+        .nav-link {
+            background-color: variables.$fondo;
+            color: variables.$fuente;
+            font-weight: 900;
+            font-size: 25px;
+            justify-content: space-around;
+            transition: all 1s;
+
             &:hover {
-                background-color: rgb(255, 0, 0);
+                background: linear-gradient(to left,#f12711,#f5af19 );
+                font-size: 30px;
             }
         }
     }
 
 }
+
+
+
+
+
 
 .logo {
     width: 100px;
@@ -37,5 +52,3 @@ nav {
 .nav-hover {
     padding: 30px;
 }
-
-

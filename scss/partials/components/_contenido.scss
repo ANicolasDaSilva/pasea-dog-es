@@ -1,3 +1,4 @@
+@use "../utilities/variables";
 @import "../utilities/mixins";
 
 // INICIO 
@@ -9,12 +10,16 @@
 
 // NOSOTROS
 
+.titulos {
+    text-align: center
+}
 .nosotros {
     @include flex(row,space-around,center);
-    margin: 50px;
+    margin: 80px;
 
     img {
         width: 800px;
+        padding: 10px;
     }
 }
 
@@ -47,8 +52,8 @@ textarea {
     width: 100px;
     margin: 50px 30px;
     padding: 20px;
-    background-color: rgb(255, 0, 0);
-    color: white;
+    background-color: variables.$color-boton;
+    color:  variables.$fuente;
     border: none;
     display: inline-block;
     align-content: center;

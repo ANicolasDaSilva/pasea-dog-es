@@ -21,14 +21,19 @@ header {
 nav ul li {
   list-style: none;
   display: inline-block;
-  background-color: rgb(255, 255, 255);
+  padding: 0px;
 }
-nav ul a {
-  text-decoration: none;
+nav ul .nav-link {
+  background-color: black;
   color: white;
+  font-weight: 900;
+  font-size: 25px;
+  justify-content: space-around;
+  transition: all 1s;
 }
-nav ul a:hover {
-  background-color: rgb(255, 0, 0);
+nav ul .nav-link:hover {
+  background: linear-gradient(to left, #f12711, #f5af19);
+  font-size: 30px;
 }
 
 .logo {
@@ -55,7 +60,7 @@ nav ul a:hover {
   font-size: 100px;
 }
 .tituloPagina h2 {
-  background-color: #fafafa;
+  background-color: white;
   margin: 50px;
 }
 
@@ -64,15 +69,20 @@ nav ul a:hover {
   margin: 0px 50px;
 }
 
+.titulos {
+  text-align: center;
+}
+
 .nosotros {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 50px;
+  margin: 80px;
 }
 .nosotros img {
   width: 800px;
+  padding: 10px;
 }
 
 form {
@@ -102,7 +112,7 @@ textarea {
   width: 100px;
   margin: 50px 30px;
   padding: 20px;
-  background-color: rgb(255, 0, 0);
+  background-color: red;
   color: white;
   border: none;
   display: inline-block;

@@ -1,4 +1,5 @@
 // PASEADORES 
+@use "../utilities/variables";
 @import "../utilities/mixins";
 
 .presentacion-paseadores {
@@ -30,7 +31,7 @@
 .botonWpp {
     text-decoration: none;
     display: inline-block;
-    color: white;
+    color: variables.$fuente;
     background-color: darkgreen;
     font-size: 25px;
     padding: 9px;
