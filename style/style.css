@@ -186,25 +186,4 @@ footer a {
   width: 40px;
 }
 
-@media (min-width: 340px) and (max-width: 767px) {
-  .nosotros {
-    display: flex;
-    flex-direction: column;
-  }
-  .nosotros img {
-    width: 100%;
-  }
-  .grupoPaseador {
-    display: flex;
-    flex-direction: column;
-  }
-  .grupoPaseador .card {
-    width: fit-content;
-  }
-  .emergencia {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 /*# sourceMappingURL=style.css.map */

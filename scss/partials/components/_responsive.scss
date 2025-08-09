@@ -1,0 +1,31 @@
+// RESPONSIVE
+
+// MOVIL
+@media (min-width: 340px) and (max-width: 767px) {
+    // nosotros
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 100%;
+        }
+    }
+
+    // paseadores 
+    .grupoPaseador{
+        display: flex;
+        flex-direction: column;
+        .card{
+            width: fit-content;
+        }
+    }
+
+    // emergencia 
+    .emergencia{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+// TABLET 768px
+@media (min-width: 768px) and (max-width: 1024px) {}
