@@ -168,7 +168,8 @@ textarea {
 }
 
 footer {
-  background-color: rgba(0, 247, 255, 0.4431372549);
+  color: #FFFFFF;
+  background-color: #262626;
   height: max-content;
   display: flex;
   flex-direction: row;
@@ -177,7 +178,7 @@ footer {
   padding: 30px;
 }
 footer a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 

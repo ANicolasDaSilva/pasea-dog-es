@@ -3,13 +3,14 @@
 @import "../utilities/mixins";
 
 footer {
-    background-color: #00f7ff71;
+    color: #FFFFFF;
+    background-color: #262626;
     height: max-content;
     @include flex(row, space-evenly, center);
     padding: 30px;
 
     a {
-        color: variables.$fondo;
+        color: variables.$fuente;
         text-decoration: none;
     }
 }
