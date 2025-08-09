@@ -2,30 +2,41 @@
 
 // MOVIL
 @media (min-width: 340px) and (max-width: 767px) {
+
+    //inicio
+    .container-fluid {
+        width: 50%;
+
+    }
+
     // nosotros
-    .nosotros{
+    .nosotros {
         display: flex;
         flex-direction: column;
-        img{
-            width: 100%;
+
+        img {
+            width: 50%;
         }
     }
 
     // paseadores 
-    .grupoPaseador{
+    .grupoPaseador {
         display: flex;
         flex-direction: column;
-        .card{
-            width: fit-content;
+
+        .card {
+            width: 50px;
         }
     }
 
     // emergencia 
-    .emergencia{
+    .emergencia {
         display: flex;
         flex-direction: column;
     }
 }
+
+// NO SE QUE ESTOY HACIENDO MAL PARA QUE ESTAS DIMENSIONES NO ME LO TOME
 
 // TABLET 768px
 @media (min-width: 768px) and (max-width: 1024px) {}
