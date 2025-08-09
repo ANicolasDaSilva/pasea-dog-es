@@ -1,0 +1,63 @@
+@import "../utilities/mixins";
+
+// INICIO 
+
+.explicacion-paseos {
+    text-align: center;
+    margin: 0px 50px;
+}
+
+// NOSOTROS
+
+.nosotros {
+    @include flex(row,space-around,center);
+    margin: 50px;
+
+    img {
+        width: 800px;
+    }
+}
+
+// CONTACTO
+
+form {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+label {
+    display: flex;
+    margin: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+input {
+    display: block;
+    width: 300px;
+    height: 30px;
+}
+
+textarea {
+    display: flex;
+    width: 500px;
+}
+
+.boton {
+    width: 100px;
+    margin: 50px 30px;
+    padding: 20px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    display: inline-block;
+    align-content: center;
+}
+
+// EMERGENCIA 
+
+.emergencia {
+    @include flex(row,center,space-between);
+    gap: 40px;
+    margin: 50px 0px;
+}

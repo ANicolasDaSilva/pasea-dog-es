@@ -1,0 +1,17 @@
+@import "../utilities/mixins";
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    @include flex(column, center, center);
+    padding: 200px;
+}
+
+.tituloPagina {
+    font-size: 100px;
+
+    h2 {
+        background-color: #fafafa;
+        margin: 50px;
+    }
+}

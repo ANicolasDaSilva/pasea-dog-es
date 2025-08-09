@@ -1,9 +1,11 @@
+@use "../utilities/variables";
+
 // HEADER 
 
 header {
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: variables.$fondo;
     align-items: center;
     position: sticky;
     top: 0;
