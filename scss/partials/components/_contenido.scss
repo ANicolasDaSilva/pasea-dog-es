@@ -11,7 +11,8 @@
 // NOSOTROS
 
 .titulos {
-    text-align: center
+    text-align: center;
+    padding: 20px,
 }
 .nosotros {
     @include flex(row,space-around,center);
