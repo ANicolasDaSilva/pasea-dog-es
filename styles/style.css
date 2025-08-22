@@ -192,6 +192,7 @@ footer a {
     margin: 0px;
   }
   .nav-hover {
+    background-color: black;
     padding: 5px;
     align-items: center;
     justify-items: center;
@@ -243,11 +244,35 @@ footer a {
   }
 }
 @media (min-width: 431px) and (max-width: 768px) {
-  .grid-container {
-    display: grid;
+  body {
+    margin: 0px;
+  }
+  .nav-hover {
+    background-color: black;
+    padding: 10px;
     align-items: center;
-    justify-content: space-around;
-    gap: 27px;
+    justify-items: center;
+  }
+  .nosotros {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nosotros img {
+    width: 100%;
+  }
+  .grupoPaseador {
+    display: grid;
+    grid-template-areas: "card card";
+  }
+  .grupoPaseador .card {
+    width: 100%;
+  }
+  .emergencia {
+    flex-direction: column;
+  }
+  .emergencia .map {
+    align-items: center;
+    justify-content: center;
   }
 }
 
